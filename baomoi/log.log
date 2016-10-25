@@ -1,0 +1,37 @@
+/home/ubuntu/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/net/protocol.rb:158:in `wait_readable': Interrupt
+	from /home/ubuntu/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/net/protocol.rb:158:in `rbuf_fill'
+	from /home/ubuntu/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/net/protocol.rb:106:in `read'
+	from /home/ubuntu/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/net/http/response.rb:319:in `read_chunked'
+	from /home/ubuntu/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/net/http/response.rb:283:in `block in read_body_0'
+	from /home/ubuntu/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/net/http/response.rb:251:in `inflater'
+	from /home/ubuntu/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/net/http/response.rb:281:in `read_body_0'
+	from /home/ubuntu/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/net/http/response.rb:202:in `read_body'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.1/gems/rest-client-2.0.0/lib/restclient/request.rb:843:in `fetch_body'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.1/gems/rest-client-2.0.0/lib/restclient/request.rb:773:in `block (2 levels) in transmit'
+	from /home/ubuntu/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/net/http.rb:1446:in `block in transport_request'
+	from /home/ubuntu/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/net/http/response.rb:163:in `reading_body'
+	from /home/ubuntu/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/net/http.rb:1445:in `transport_request'
+	from /home/ubuntu/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/net/http.rb:1407:in `request'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.1/gems/rest-client-2.0.0/lib/restclient/request.rb:499:in `net_http_do_request'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.1/gems/rest-client-2.0.0/lib/restclient/request.rb:772:in `block in transmit'
+	from /home/ubuntu/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/net/http.rb:853:in `start'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.1/gems/rest-client-2.0.0/lib/restclient/request.rb:766:in `transmit'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.1/gems/rest-client-2.0.0/lib/restclient/request.rb:215:in `execute'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.1/gems/rest-client-2.0.0/lib/restclient/request.rb:52:in `execute'
+	from /home/ubuntu/.rvm/gems/ruby-2.3.1/gems/rest-client-2.0.0/lib/restclient.rb:67:in `get'
+	from app/services/baomoi.rb:18:in `get_responses'
+	from app/services/baomoi.rb:49:in `block (2 levels) in <main>'
+	from app/services/baomoi.rb:48:in `each'
+	from app/services/baomoi.rb:48:in `block in <main>'
+	from app/services/baomoi.rb:25:in `each'
+	from app/services/baomoi.rb:25:in `<main>'
+success crawl chid page http://doanhnghiepvn.vn/vinamilk-tien-phong-di-dau-trong-chuong-trinh-sua-hoc-duong-vi-mot-viet-nam-vuon-cao-d83138.html - page : 1
+success crawl chid page http://doanhnghiepvn.vn/ong-lon-bidv-dung-so-1-ngan-hang-viet-ve-tong-tai-san-d83143.html - page : 2
+success crawl chid page http://doanhnghiepvn.vn/chu-tich-tong-cong-ty-duong-sat-bat-ngo-xin-tu-chuc-d83132.html - page : 3
+success crawl chid page http://doanhnghiepvn.vn/doanh-thu-cua-tap-doan-fpt-dat-hon-100-ty-moi-ngay-d83118.html - page : 4
+success crawl chid page http://doanhnghiepvn.vn/ga-de-trung-vang-vinamilk-lai-hon-9000-ty-sau-9-thang-d83109.html - page : 5
+success crawl chid page http://doanhnghiepvn.vn/khong-duoc-vay-tien-tu-cong-ty-tai-chinh-de-mua-nha-mua-vang-d83096.html - page : 6
+success crawl chid page http://doanhnghiepvn.vn/bidv-hop-dai-hoi-co-dong-chua-co-tan-chu-tich-hdqt-d82990.html - page : 7
+success crawl chid page http://doanhnghiepvn.vn/ong-lon-vissan-dua-hon-809-trieu-co-phieu-len-san-upcom-d82957.html - page : 8
+success crawl chid page http://doanhnghiepvn.vn/chinh-thuc-chot-ngay-habeco-len-giao-dich-tren-upcom-d82955.html - page : 9
+success crawl chid page http://doanhnghiepvn.vn/sang-nay-bidv-tien-hanh-dai-hoi-dong-co-dong-bat-thuong-d82953.html - page : 10
